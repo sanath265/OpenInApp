@@ -11,6 +11,7 @@ class SampleLinkViewTableViewCell: UITableViewCell {
     let nibname = String(describing: SampleLinkTableViewCell.self)
     let headerNibName = String(describing: SampleLinkHeaderFooterView.self)
     var buttonAction: ((TapOnLinKType) -> Void)?
+    var tapOnLinkAction: (() -> Void)?
     private var tableViewData = [LinkData]()
     private var topLinksData = [LinkData]()
     private var recentLinksData = [LinkData]()
@@ -54,6 +55,11 @@ extension SampleLinkViewTableViewCell: UITableViewDelegate, UITableViewDataSourc
         
         if let cell = cell as? SampleLinkTableViewCell {
             cell.setupView(model: tableViewData[indexPath.row])
+            cell.buttonAction = {
+                if let action = self.tapOnLinkAction {
+                    action()
+                }
+            }
             return cell
         }
         

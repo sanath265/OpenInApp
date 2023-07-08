@@ -51,13 +51,17 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cells = viewModel.dashboardCells else { return UITableViewCell() }
         let cell = tableView.dequeueReusableCell(withIdentifier: cells[indexPath.row].rawValue, for: indexPath)
-        
+        cell.selectionStyle = .none
         if let cell = cell as? ChartTableViewCell {
-            cell.setupView()
+            cell.setupView(data: viewModel.apiResponse?.data?.overallUrlChart ?? [:])
             return cell
             
         } else if let cell = cell as? ChartResultCollectionTableViewCell {
             cell.setupView(viewModel: viewModel.configureDashBoardResultData() ?? [])
+            cell.buttonAction = { [weak self] in
+                guard let self else { return }
+                self.presentVC(title: "View Analytics")
+            }
             return cell
             
         } else if let cell = cell as? SampleLinkViewTableViewCell {
@@ -72,9 +76,17 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
                     self.sampleLinksHeight = (CGFloat(viewModel.apiResponse?.data?.recentLinks?.count ?? 0) * 136) + 66
                 }
             }
+            cell.tapOnLinkAction = {[weak self] in
+                guard let self else { return }
+                self.tapOnLink()
+            }
             return cell
             
         } else if let cell = cell as? ButtonTableViewCell {
+            cell.buttonAction = { [weak self] in
+                guard let self else { return }
+                self.presentVC(title: "View All Links")
+            }
             return cell
             
         }  else if let cell = cell as? SupportTableViewCell {
@@ -111,6 +123,43 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
         return 300
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        switch viewModel.dashboardCells?[indexPath.row] {
+        case .supportWhatsapp:
+            opeUrl(url: "wa.me/91\(viewModel.apiResponse?.supportWhatsappNumber ?? "")")
+        case .frequentlyAskedQA:
+            presentVC(title: "Frequently Asked Questions")
+        default:
+            return
+        }
+    }
+    
+    func opeUrl(url: String) {
+        if let url = URL(string: url) {
+            if UIApplication.shared.canOpenURL(url) {
+                UIApplication.shared.open(url)
+            } else {
+                showToast(message: "can't open url")
+            }
+        }
+    }
+    
+    func presentVC(title: String) {
+        let vc = ComingSoonViewController(title: title)
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc func tapOnLink() {
+        let alert = UIAlertController(title: "Coming Soon",
+                                      message: "",
+                                      preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK",
+                                      style: .default,
+                                      handler: { _ in
+        }))
+        self.present(alert, animated: true, completion: nil)
     }
 }
 

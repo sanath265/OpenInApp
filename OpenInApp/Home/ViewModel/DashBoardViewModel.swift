@@ -111,7 +111,7 @@ final class DashBoardViewModel {
            !data.description.isEmpty {
             result.append(DashBoardResultModel(key: "Start time",
                                              value: data.description,
-                                             image: "result_source"))
+                                             image: "time"))
         }
         
         if let data = apiResponse.appliedCampaign,

@@ -9,6 +9,7 @@ import UIKit
 
 class ChartResultCollectionTableViewCell: UITableViewCell {
     
+    var buttonAction: (() -> Void)?
     var viewModel = [DashBoardResultModel]()
     let nibName = String(describing: ChartResultCollectionViewCell.self)
     @IBOutlet var collectionView: UICollectionView! {
@@ -51,6 +52,11 @@ class ChartResultCollectionTableViewCell: UITableViewCell {
         }
     }
     
+    @IBAction func buttonClicked() {
+        if let action = buttonAction {
+            action()
+        }
+    }
 }
 
 extension ChartResultCollectionTableViewCell: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {

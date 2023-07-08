@@ -9,6 +9,7 @@ import UIKit
 
 class SampleLinkTableViewCell: UITableViewCell {
     
+    var buttonAction: (() -> Void)?
     @IBOutlet private var baseView: UIView! {
         didSet {
             baseView.layer.cornerRadius = 8
@@ -34,14 +35,24 @@ class SampleLinkTableViewCell: UITableViewCell {
         didSet {
             linkView.layer.cornerRadius = 8
             linkView.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner]
+            let tap = UITapGestureRecognizer(target: self, action: #selector(tapOnLink))
+            linkView.addGestureRecognizer(tap)
         }
     }
-    
-    
 
     override func awakeFromNib() {
         super.awakeFromNib()
         linkView.addDashedBorder(color: UIColor(red: 166 / 255, green: 199 / 255, blue: 1, alpha: 1))
+    }
+    
+    override func prepareForReuse() {
+        linkImageView.image = UIImage(named: "placeholder")
+    }
+    
+    @objc func tapOnLink() {
+        if let action = buttonAction {
+            action()
+        }
     }
     
     @IBAction func copyButtonClicked() {

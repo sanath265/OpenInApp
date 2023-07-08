@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "04A55E1A-045F-4989-8365-D47BB4B4C620"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C1492C7-D37F-45BD-947F-475DA6B003F5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OpenInApp/Home/View/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92ED6C5E-E2B4-4DCE-920B-9AAE0908D324"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OpenInApp/Home/View/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "92ED6C5E-E2B4-4DCE-920B-9AAE0908D324 - 63f1ecf14ac7b602"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OpenInApp.HomeViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "OpenInApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanath/Documents/Private/OpenInApp/OpenInApp/Home/View/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "1100">
+               </Location>
+               <Location
+                  uuid = "92ED6C5E-E2B4-4DCE-920B-9AAE0908D324 - 63f1ecf14ac7b99e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OpenInApp.HomeViewController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "OpenInApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanath/Documents/Private/OpenInApp/OpenInApp/Home/View/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "125"
+                  endingLineNumber = "125"
+                  offsetFromSymbolStart = "1296">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B4A2C79-22C3-4158-9D88-C846C5701A93"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OpenInApp/Home/View/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "opeUrl(url:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3B4A2C79-22C3-4158-9D88-C846C5701A93 - 4c24197a7c05466d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OpenInApp.HomeViewController.opeUrl(url: Swift.String) -&gt; ()"
+                  moduleName = "OpenInApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanath/Documents/Private/OpenInApp/OpenInApp/Home/View/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "126"
+                  endingLineNumber = "126"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "3B4A2C79-22C3-4158-9D88-C846C5701A93 - 4c24197a7c05466d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OpenInApp.HomeViewController.opeUrl(url: Swift.String) -&gt; ()"
+                  moduleName = "OpenInApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanath/Documents/Private/OpenInApp/OpenInApp/Home/View/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "126"
+                  endingLineNumber = "126"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "3B4A2C79-22C3-4158-9D88-C846C5701A93 - 4c24197a7c0546e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OpenInApp.HomeViewController.opeUrl(url: Swift.String) -&gt; ()"
+                  moduleName = "OpenInApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanath/Documents/Private/OpenInApp/OpenInApp/Home/View/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "224">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B91F4BA9-76ED-46BC-9584-91FDF065FD96"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OpenInApp/Home/View/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "opeUrl(url:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B91F4BA9-76ED-46BC-9584-91FDF065FD96 - 4c24197a7c05468a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OpenInApp.HomeViewController.opeUrl(url: Swift.String) -&gt; ()"
+                  moduleName = "OpenInApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanath/Documents/Private/OpenInApp/OpenInApp/Home/View/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "127"
+                  endingLineNumber = "127"
+                  offsetFromSymbolStart = "308">
+               </Location>
+               <Location
+                  uuid = "B91F4BA9-76ED-46BC-9584-91FDF065FD96 - 4c24197a7c05468a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OpenInApp.HomeViewController.opeUrl(url: Swift.String) -&gt; ()"
+                  moduleName = "OpenInApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanath/Documents/Private/OpenInApp/OpenInApp/Home/View/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "127"
+                  endingLineNumber = "127"
+                  offsetFromSymbolStart = "312">
+               </Location>
+               <Location
+                  uuid = "B91F4BA9-76ED-46BC-9584-91FDF065FD96 - 4c24197a7c054706"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OpenInApp.HomeViewController.opeUrl(url: Swift.String) -&gt; ()"
+                  moduleName = "OpenInApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanath/Documents/Private/OpenInApp/OpenInApp/Home/View/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "131"
+                  endingLineNumber = "131"
+                  offsetFromSymbolStart = "312">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "57635DD7-9541-4035-9D37-33338CC8CCBB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OpenInApp/Home/View/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "opeUrl(url:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "57635DD7-9541-4035-9D37-33338CC8CCBB - 4c24197a7c0546ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OpenInApp.HomeViewController.opeUrl(url: Swift.String) -&gt; ()"
+                  moduleName = "OpenInApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanath/Documents/Private/OpenInApp/OpenInApp/Home/View/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "476">
+               </Location>
+               <Location
+                  uuid = "57635DD7-9541-4035-9D37-33338CC8CCBB - 4c24197a7c0546ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OpenInApp.HomeViewController.opeUrl(url: Swift.String) -&gt; ()"
+                  moduleName = "OpenInApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanath/Documents/Private/OpenInApp/OpenInApp/Home/View/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "480">
+               </Location>
+               <Location
+                  uuid = "57635DD7-9541-4035-9D37-33338CC8CCBB - 4c24197a7c054727"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OpenInApp.HomeViewController.opeUrl(url: Swift.String) -&gt; ()"
+                  moduleName = "OpenInApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sanath/Documents/Private/OpenInApp/OpenInApp/Home/View/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "480">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
